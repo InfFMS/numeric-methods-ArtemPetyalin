@@ -47,3 +47,5 @@ while a != 0:
     x2 = float(input('Second border: '))
     e = float(input('Accuracy: '))
     print(f"Equation's {a} solution on interval [{x1}, {x2}] is:", divider(x1, x2, e, a))
+    fig, ax = plt.subplots()
+
